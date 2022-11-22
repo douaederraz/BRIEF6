@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation js</title>
+    <link rel="stylesheet" href="./validation1.css">
+</head>
+<body>
+    <main>
+        <article>
+            <section>
+      <br>
+              <h2>Inscription:</h2>
+              <!-- nom -->
+            <label for="Nom">Nom:</label>
+              <input type="text" id="nom" placeholder="Nom" class="input">
+              <span id="Nom"></span><br>
+            
+              <!-- prénom -->
+              <label for="Prénom">Prénom:</label>
+              <input type="text" id="Prénom" placeholder="Prénom" class="input">
+              <span id="prenom"></span><br>
+             
+              <!-- Tel -->
+              <label for="tel">tel:</label>
+              <input type="text" id="tel" placeholder="0_________"class="input">
+              <span id="Tel"></span><br>
+              
+                  <!-- Email -->
+              <label for="Email">Email:</label>
+              <input type="text" id="email" placeholder="prenom.nom@ofppt.ma"class="input">
+              <span id="Email"></span><br>
+             
+              <!-- Genre -->
+              <label for="Genre">Genre:</label>
+           
+            <input type="radio" name="genre" id="F" class="radio">
+            <label for="F">F</label>
+          
+             <input type="radio"  name="genre" id="M" class="radio"> 
+             <label for="M">M</label>
+             <span id="Genre"></span><br> <br>
+
+                 <!-- Group -->
+              <label for="Group">Group:</label>
+
+              <input type="radio"name="Group" id="DW101" class="radio">
+              <label for="DW101">DW101</label>
+
+        
+              <input type="radio"name="Group" id="DW102" class="radio">
+
+
+            <label for="DW102">DW102:</label>
+        
+            <input type="radio"name="Group" id="DW103"class="radio">
+            <label for="DW103">DW103</label>
+
+      
+            <input type="radio"name="Group" id="DM101"class="radio">
+             <label for="DM101">DM101</label>
+
+     
+
+             <input type="radio"name="Group" id="DM102"class="radio">
+             <label for="DM102">DM102</label>
+
+
+             <span id="group"></span> <br> <br>
+         <label for="Club">Club:</label>
+          <select id="club"   multiple="multiple"  >
+      <option value="Informatique​">Informatique​ ​</option>
+      <option value="Robotique​">Robotique​​</option>
+      <option value="Jeu d'échecs​">Jeu d'échecs​ ​</option>
+      <option value="Musique​">Musique​ ​</option>
+      <option value="Foot​">Foot​ ​</option>
+      <option value=" Théatre​"> Théatre​ ​</option>
+          </select>
+          <span id="Club"></span> 
+          <br> <br>
+          <button onclick="Suivant()">suivant</button>
+            </section>
+         
+        </article>
+    </main>
+    <script src="./VALIDATION1.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+section{
+    width:60%;
+    margin-left: 23%;
+    background-color:#9fafbf ;
+    height: auto;
+    border-radius: 7%;
+}
+h2 {
+    margin: 3%;
+text-align: center;
+  color: #0a2b58;
+
+}
+.input{
+    margin-top: 7%; 
+    border: none;
+ 
+
+    width: 45%;
+
+}
+label{
+    margin-left: 4%;
+    margin-top: 7%;
+    color: #0a2b58;
+}
+ 
+.radio{
+    margin-left: 2%;
+}
+
+
+
+select{
+
+    width: 35%;
+}
+
+button{
+    margin-left: 32%;
+    width: 30%;
+    font-weight: 700;
+    color: #0a2b58;
+}
+button:hover{
+    background-color: #3b4d61;
+    color: white;
+    width: 25;
+    height: 5%;
+}
+#nom , #email {
+    margin-left: 2%;
+    
+}
+#tel{
+    margin-left: 5%;
+} 
+select{
+    margin-left: 4%;
+    width: 50%;
+}
+option{
+    font-size: larger;
+    color: #0a2b58;
+}
+input{
+    margin-top: 5%;
+    border: none;
+    outline: none;
+}
+input:placeholder-shown{
+    color: black;
+    font-weight: 600;
+}
